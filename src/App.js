@@ -6,15 +6,19 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import LeagueDetail from './components/LeagueDetail/LeagueDetail';
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <Home/>
+          <Home></Home>
+        </Route>
+        <Route path="/league/:id">
+          <LeagueDetail></LeagueDetail>
         </Route>
         <Route path="*">
-          <NotFound/>
+          <NotFound></NotFound>
         </Route>
       </Switch>
     </Router>
