@@ -1,0 +1,9 @@
+.league-container{
+    padding-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+}
+.leagues{
+    background-color: #0E0A2A;
+}
