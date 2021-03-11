@@ -1,0 +1,27 @@
+.banner{
+    background-image: url('../../images/home-background.jpeg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner .logo{
+    z-index: 6;
+    width: 150px;
+} 
+.banner:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(105, 105, 105, 0.5);
+    height: 200px;
+  }
+  .teamImg{
+      width: 250px;
+  }
+  .social-link img{
+      width: 50px;
+  }

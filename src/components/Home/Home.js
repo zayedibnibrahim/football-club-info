@@ -8,7 +8,7 @@ const Home = () => {
 
     //slice to get 6 object
     const getFirst6 = (f6) => {
-        setFootballLeague(f6.slice(0, 6))
+        setFootballLeague(f6.slice(0, 12))
     }
     useEffect(() => {
         const url = 'https://www.thesportsdb.com/api/v1/json/1/all_leagues.php';
