@@ -25,3 +25,20 @@
   .social-link img{
       width: 50px;
   }
+  .hero h3, .hero p{
+      color: #ffffff;
+  }
+  .more-details{
+      border-radius: 10px;
+      margin-top: 20px;
+      padding: 20px;
+  }
+  @media (max-width: 414px){
+    .team-img{
+        text-align: center;
+    }
+    .hero-holder{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+  }
